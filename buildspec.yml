@@ -25,3 +25,4 @@ artifacts:
     - "manage.py"
     - "sccripts/*"
     - "django_codedeploy/*"
+    - "appspec.yml"
