@@ -2,7 +2,5 @@
 echo "Installing Dependencies"
 pwd
 ls
-ls /
-ls /var/www
-ls /var/www/django-app
+ls /var
 pip3 install -r /var/www/django-app/requirements.txt
