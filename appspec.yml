@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: django-codedeploy/
+  - source: /
     destination: /var/www/django-app
 hooks:
   BeforeInstall:
