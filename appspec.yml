@@ -4,10 +4,10 @@ files:
   - source: /
     destination: /var/www/django-app
 hooks:
-  AfterInstall:
-    - location: scripts/install_dependencies.sh
-      timeout: 300
-      runas: root
+  # AfterInstall:
+  #   - location: scripts/install_dependencies.sh
+  #     timeout: 300
+  #     runas: root
   ApplicationStart:
     - location: scripts/start_gunicorn.sh
       timeout: 300
