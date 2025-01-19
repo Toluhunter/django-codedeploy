@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: requirements.txt
-    destination: /
+  - source: /
+    destination: /var/www/django-app
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
