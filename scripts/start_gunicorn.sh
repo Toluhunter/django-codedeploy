@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Starting Gunicorn..."
-cd /django-app
+cd /var/www/django-app
 python3 -m venv venv
 source venv/bin/activate
 
